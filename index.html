@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>App</title>
+</head>
+<body>
+    <h1>Hello World</h1>
+    <button id="click">Click Me</button>
+    <button id="menu">Menu</button>
+
+    <button id="msg_a">message a</button>
+    <button id="new">new Win</button>
+    <a href="https://www.baidu.com">baidu</a>
+
+    <webview src="http://www.baidu.com"></webview>
+    <script>
+        // require('./renderer-process/open.js')
+        // require('./renderer-process/menu.js')
+        // require('./renderer-process/msg-a.js')
+        // require('./renderer-process/new-win.js')
+        // require('./renderer-process/notification.js')
+        require('./renderer-process/link.js')
+        require('./renderer-process/clipboard.js')
+    </script>
+</body>
+</html>
